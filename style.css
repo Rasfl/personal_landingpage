@@ -23,3 +23,14 @@ It defines the styles for the header, main content, and footer sections of the p
 
 
 /*Here is the start of the style of the child elements */
+
+.copyright {
+    text-align: center;
+    color: white;
+    height: auto;
+}
+.footer-content {
+    width: auto;
+    height: 100px;
+    background-color: #1F2937;
+}
