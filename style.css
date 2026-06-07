@@ -49,5 +49,20 @@ It defines the styles for the header, main content, and footer sections of the p
     padding: 20px;
     width: auto;
     height: 150px;
-    flex-direction: column;
+    flex-direction: row;
+}
+.button-cta {
+    color: #ffffff;
+    background-color: #3882f6;
+    border-color: #ffffff;
+    margin: 20px;
+    border-radius: 8px;
+    width: 200px;
+}
+
+.button-p {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: 15px;
 }
