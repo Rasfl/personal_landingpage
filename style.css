@@ -92,3 +92,19 @@ p {
     justify-content: center;
     margin: 50px;
 }
+
+.port-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.port-squares {
+    flex: 1 1 auto;
+}
+
+.sq {
+
+}
