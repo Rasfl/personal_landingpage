@@ -70,3 +70,18 @@ It defines the styles for the header, main content, and footer sections of the p
 .div-cta{
     margin: 0;
 }
+
+.phrase-italic {
+    font-style: italic;
+    width: auto;
+    height: auto;
+}
+.phrase-bold {
+    font-weight: bold;
+}
+
+.div-phrase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
