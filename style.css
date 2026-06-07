@@ -11,7 +11,9 @@ It defines the styles for the header, main content, and footer sections of the p
 
 }
 .phrase {
-
+    background-color: #E5E7EB;
+    justify-content: center;
+    display: flex;
 }
 .cta{
     display: flex;
@@ -21,6 +23,10 @@ It defines the styles for the header, main content, and footer sections of the p
 
 .footer{
 
+}
+
+p {
+    font-family: 'Roboto';
 }
 
 
@@ -73,15 +79,16 @@ It defines the styles for the header, main content, and footer sections of the p
 
 .phrase-italic {
     font-style: italic;
-    width: auto;
-    height: auto;
+    text-align: center;
 }
 .phrase-bold {
     font-weight: bold;
+    text-align: right;
 }
 
 .div-phrase {
-    display: flex;
-    justify-content: center;
     align-items: center;
+    flex: 1 1 auto;
+    justify-content: center;
+    margin: 50px;
 }
