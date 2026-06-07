@@ -16,7 +16,7 @@ It defines the styles for the header, main content, and footer sections of the p
 .cta{
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 50px;
 }
 
 .footer{
@@ -65,4 +65,8 @@ It defines the styles for the header, main content, and footer sections of the p
     margin-right: 30px;
     font-weight: bold;
     font-size: 15px;
+}
+
+.div-cta{
+    margin: 0;
 }
