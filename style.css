@@ -1,12 +1,16 @@
 /*This is the CSS file for the personal landing page. 
 It defines the styles for the header, main content, and footer sections of the page. */
-body {
+body, html {
     margin: 0;
     padding: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .header {
-    
+    background-color: #1F2937;
 }
 .hero{
     background-color: #1F2937;
@@ -28,12 +32,12 @@ body {
 }
 
 .footer{
-
+    background-color: #1F2937;
 }
 
 p {
     font-family: "Roboto", Serif;
-    margin: 10px;
+    margin: 0px;
 }
 
 
@@ -179,4 +183,19 @@ p {
 .hero-h1 {
     margin-bottom: 0%;
     margin-top: 0%;
+}
+
+.header-sq {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo {
+    flex: 0.5 1 auto;
+}
+.header-links {
+    flex: 0.5 1 auto;
+    flex-direction: row;
 }
