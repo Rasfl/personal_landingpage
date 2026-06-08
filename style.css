@@ -1,5 +1,9 @@
 /*This is the CSS file for the personal landing page. 
 It defines the styles for the header, main content, and footer sections of the page. */
+body {
+    margin: 0;
+    padding: 0;
+}
 
 .header {
     
