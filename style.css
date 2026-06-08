@@ -1,5 +1,14 @@
 /*This is the CSS file for the personal landing page. 
 It defines the styles for the header, main content, and footer sections of the page. */
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 body, html {
     margin: 0;
     padding: 0;
@@ -7,6 +16,12 @@ body, html {
 
 * {
     box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
 }
 
 .header {
@@ -36,7 +51,6 @@ body, html {
 }
 
 p {
-    font-family: "Roboto", Serif;
     margin: 0px;
 }
 
@@ -173,7 +187,7 @@ p {
     float: inline-start;
     padding: 10px;
     width: 25%;
-}
+    }
 
 .hero-p1 {
     margin-left: 0%;
@@ -190,12 +204,19 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    color:#E5E7EB;
+    text-decoration: none;
 }
 
 .header-logo {
     flex: 0.5 1 auto;
+    font-weight: bold;
 }
 .header-links {
-    flex: 0.5 1 auto;
     flex-direction: row;
+    display: flex;
+}
+
+.h-links {
+    margin: 10px;
 }
