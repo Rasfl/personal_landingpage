@@ -1,14 +1,6 @@
 /*This is the CSS file for the personal landing page. 
 It defines the styles for the header, main content, and footer sections of the page. */
 
-.roboto-<uniquifier> {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
 body, html {
     margin: 0;
     padding: 0;
@@ -27,19 +19,23 @@ a {
 .header {
     background-color: #1F2937;
 }
+
 .hero{
     background-color: #1F2937;
 }
+
 .portfolio{
     margin: 50px;
     margin-top: 25px;
     margin-bottom: 70px;
 }
+
 .phrase {
     background-color: #E5E7EB;
     justify-content: center;
     display: flex;
 }
+
 .cta{
     display: flex;
     justify-content: center;
@@ -52,6 +48,10 @@ a {
 
 p {
     margin: 0px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
 }
 
 
@@ -167,7 +167,6 @@ p {
     color:#ffffff;
     margin: 50px;
     margin-left: 10px;
-
 }
 
 .hero-text {
@@ -186,12 +185,15 @@ p {
     border-color: #3882f6;
     float: inline-start;
     padding: 10px;
-    width: 25%;
+    width:auto;
     }
 
 .hero-p1 {
-    margin-left: 0%;
-    margin-top: 5px;
+    margin: 10px;
+    margin-left: 0px;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight:lighter;
 }
 
 .hero-h1 {
@@ -211,6 +213,8 @@ p {
 .header-logo {
     flex: 0.5 1 auto;
     font-weight: bold;
+    font-size: 16px;
+    font-weight: 900;
 }
 .header-links {
     flex-direction: row;
